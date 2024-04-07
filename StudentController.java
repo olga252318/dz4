@@ -1,5 +1,7 @@
 import java.util.List;
 
+//принцип разделения интерфейсов
+
 public class StudentController implements UserController<Student> {
 
     private final StudentGroupSetvice studentGroupSetvice = new StudentGroupSetvice();

@@ -1,3 +1,5 @@
+//принцип подстановки Барбары Лисков
+
 public class Student extends User implements Comparable<Student> {
 
     private Long studentId;
@@ -10,6 +12,7 @@ public class Student extends User implements Comparable<Student> {
     public Long getStudentId() {
         return studentId;
     }
+
     public void setStudentId(Long studentId) {
         this.studentId = studentId;
     }

@@ -1,7 +1,8 @@
 import java.util.Comparator;
 
 public class UserComparator<T extends User> implements Comparator<T> {
-
+    
+    // использован принцип единственной ответственности
     @Override
     public int compare(T o1, T o2) {
         int rersultOfComparing = o1.getFirstName().compareTo(o2.getFirstName());

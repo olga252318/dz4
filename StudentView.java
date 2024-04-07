@@ -2,6 +2,7 @@ import java.util.List;
 
 public class StudentView implements UserView<Student> {
 
+    //использован принцип единственной ответственности
     @Override
     public void sendOnConsole(List<Student> list){
         for(Student student: list){
